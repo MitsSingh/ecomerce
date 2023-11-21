@@ -61,7 +61,7 @@ const showCart=()=>{
                {/* this div will be at left side */}
                 <Link to={'/'} className='flex items-center gap-2'>
                     <img src={Logo} className='w-8 object-cover' alt="" />
-                    <p className='text-headingColor text-xl font-bold'>City</p>
+                    <p className='text-headingColor text-xl font-bold'>City Express Eats</p>
                 </Link>
                 {/* div for ul cart and user auth  */}
                {/* ul,cart,user auth will be at right side */}
@@ -69,7 +69,7 @@ const showCart=()=>{
             <div className='flex items-center gap-8'>
                 {/* ul  */}
                 <ul className='flex items-center gap-8'>
-                    <li className=' text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Home</li>
+                    <li className=' text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'><Link to={"/"}>Home</Link></li>
                     <li className='text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Menu</li>
                     <li className='text-textColor hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>About us</li>
                     <li className='text-textColor  hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Service</li>
@@ -170,7 +170,7 @@ const showCart=()=>{
                 {/* 2->the ul of the laptop view  */}
                 
                 <ul className='flex flex-col  '>
-                    <li  onClick={()=>setMenu(false)} className=' text-textColor px-4 py-2 hover:bg-slate-100 hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Home</li>
+                    <li  onClick={()=>setMenu(false)} className=' text-textColor px-4 py-2 hover:bg-slate-100 hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'><Link to={"/"}>Home</Link></li>
                     <li onClick={()=>setMenu(false)} className='text-textColor px-4 py-2 hover:bg-slate-100 hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Menu</li>
                     <li onClick={()=>setMenu(false)} className='text-textColor px-4 py-2 hover:bg-slate-100 hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>About us</li>
                     <li onClick={()=>setMenu(false)} className='text-textColor px-4 py-2 hover:bg-slate-100 hover:text-headingColor duration-100 transition-all ease-in-out cursor-pointer'>Service</li>
